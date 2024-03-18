@@ -1,0 +1,65 @@
+
+body{
+    background-color: seagreen;
+    background-image: url(adsf6.2.png);
+    background-position: center;
+    background-size:cover;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.Container_Center{
+    display: flex;
+    justify-content: center;
+}
+div.Container_Right{
+    display: flex;
+    justify-content: right;
+}
+div.Container_Left{
+    display: flex;
+    justify-content: left;
+}
+
+header{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+div.Container_Navbar{
+    background-color: blue;
+    background-image: url(asdf1.png);
+    background-size:cover;
+    width: 100vw;
+}
+#navbar li{
+    display: inline;
+    padding-left: 2.5vw;
+}
+#navbar a{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+div.Container_Showcase{
+    background-position: center;
+    background-size: auto;  
+    background-size: cover;
+    background-image: url(adsf8.png); 
+
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+div.Division_A{
+    padding-top: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+img.image_1{
+    height: 30vw;
+    width: 30vw;
+}
