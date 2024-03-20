@@ -26,11 +26,14 @@ header{
     font-size: 2.5vw;
 }
 div.Container_Navbar{
+    background-image: url(3D_Blue_6.0.png);
     background-color: blue;
-    background-image: url(asdf1.png);
-    background-size:cover;
+    background-position:top center;
+    background-size: 99vw calc(10px + 6vh);
+    background-repeat: no-repeat;
     width: 100vw;
 }
+
 #navbar li{
     display: inline;
     padding-left: 2.5vw;
@@ -62,4 +65,31 @@ div.Division_A{
 img.image_1{
     height: 30vw;
     width: 30vw;
+}
+
+div.BKGRND_IMAGE_CONT_A{
+    width: 100vw;
+    height: 28vh;
+    background-position:top center;
+    background-image: url(3D_Green_0.0.png);
+    background-repeat: no-repeat;
+    background-size: 99vw calc(10px + 15vw);
+}
+
+div.TXT_CONT_A{
+    padding-top: 0vw;
+    padding-left: 2vw;
+    width: 96vw;
+    height:10vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: black;
+}
+
+div.BLANK_CONT_A{
+    width: 98vw;
+    height:20vw - 15vw;
 }
