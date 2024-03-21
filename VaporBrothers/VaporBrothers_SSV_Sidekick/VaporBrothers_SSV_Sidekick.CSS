@@ -73,7 +73,7 @@ div.BKGRND_IMAGE_CONT_A{
     background-position:top center;
     background-image: url(3D_Green_0.0.png);
     background-repeat: no-repeat;
-    background-size: 99vw calc(10px + 15vw);
+    background-size: 99vw calc(10px + 10vw);
 }
 
 div.TXT_CONT_A{
