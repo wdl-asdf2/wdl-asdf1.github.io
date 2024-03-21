@@ -69,11 +69,11 @@ img.image_1{
 
 div.BKGRND_IMAGE_CONT_A{
     width: 100vw;
-    height: 28vh;
+    height: 32vh;
     background-position:top center;
     background-image: url(3D_Green_0.0.png);
     background-repeat: no-repeat;
-    background-size: 99vw calc(10px + 15vw);
+    background-size: 99vw calc(10px + 17vw);
 }
 
 div.TXT_CONT_A{
