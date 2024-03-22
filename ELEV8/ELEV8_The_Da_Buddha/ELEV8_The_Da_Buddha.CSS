@@ -75,6 +75,16 @@ div.BKGRND_IMAGE_CONT_A{
     background-size: 99vw calc(10px + 10vw);
 }
 
+div.BKGRND_IMAGE_CONT_H{
+    width: 100vw;
+    height: 28vh;
+    background-position:top center;
+    background-image: url(3D_ELEV8_Rose_0.0.png);
+    background-repeat: no-repeat;
+    background-size: 80vw 20vh;
+}
+
+
 div.TXT_CONT_A{
     padding-top: 0vw;
     padding-left: 2vw;
