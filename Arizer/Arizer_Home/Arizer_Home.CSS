@@ -1,8 +1,9 @@
 body{
     background-color: seagreen;
     background-image: url(Rose_4.1.png);
-    background-position: center;
-    background-size:cover;   
+    background-position: top center;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;   
     font-family: Arial, Helvetica, sans-serif;
 }
 
