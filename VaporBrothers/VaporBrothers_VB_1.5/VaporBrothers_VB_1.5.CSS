@@ -1,3 +1,26 @@
+div.AAA_0{
+    border: solid salmon 1px;
+
+    height: 100vh;
+    width: 100wv;
+
+    background-image: url(green_6.0.png);
+    background-position: top center;
+
+    background-size: 100vw 100vh;
+
+ 
+
+    position: sticky;
+    top: 0px;
+}
+
+
+img.image_AAA_0{
+    height: 100vw;
+    width: 100vw;
+}
+
 .bg {
     background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
     background-image: url(adsf6.3.png);
@@ -22,19 +45,25 @@
 
     right: 1vw;
     bottom: 2vw;
-}
+  }
 
 div.BLANK_CONT_A{
     width: 100vw;
     height:25vh;
 }
 
+
+
+
+
+
+
 body{
     background-color: seagreen;
-    background-image: url(adsf6.2.png);
+    background-image: url(adsf6.3.png);
     background-position: top center;
-    background-size:100vw 100vh;
-    background-attachment: fixed;   
+    background-size:100vw 300vh;
+ 
     font-family: Arial, Helvetica, sans-serif;
 }
 div.Container_Center{
@@ -80,7 +109,7 @@ div.Container_Showcase{
     background-position: center;
     background-size: auto;  
     background-size: cover;
-    background-image: url(adsf8.png); 
+    background-image: url(Rose_0.1.png); 
 
     text-align: center;
     font-size: 1.5vw;
@@ -96,7 +125,6 @@ img.image_1{
     height: 30vw;
     width: 30vw;
 }
-
 
 div.BKGRND_IMAGE_CONT_A{
     width: 100vw;
@@ -130,7 +158,7 @@ div.TXT_CONT_A{
     color: black;
 }
 
-div.BLANK_CONT_A{
-    width: 98vw;
-    height:20vw - 15vw;
-}
+
+
+
+
