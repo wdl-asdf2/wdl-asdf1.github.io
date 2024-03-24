@@ -62,8 +62,8 @@ body{
     background-color: seagreen;
     background-image: url(green_6.1.png);
     background-position: top center;
-    background-size:100vw 100vh;
-    background-attachment: fixed;   
+    background-size:100vw 300vh;
+ 
     font-family: Arial, Helvetica, sans-serif;
 }
 div.Container_Center{
