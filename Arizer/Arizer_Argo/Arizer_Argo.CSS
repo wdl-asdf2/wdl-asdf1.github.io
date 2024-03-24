@@ -1,3 +1,33 @@
+.bg {
+    background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
+    background-image: url(adsf6.3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101vw 303vh;
+    height: 300vh;
+    width: 100vw;
+    position: fixed;
+    /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
+    right: 0vw;
+    bottom: 0vh;
+  }
+
+  .content{
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+
+    right: 1vw;
+    bottom: 2vw;
+  }
+
+div.BLANK_CONT_A{
+    width: 100vw;
+    height:25vh;
+}
 
 body{
 
