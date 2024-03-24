@@ -23,16 +23,16 @@ img.image_AAA_0{
 
 .bg {
     background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
-    background-image: url(green_6.0.png);
+    background-image: url(green_6.1.png);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 101vw 101vh;
-    height: 100vh;
+    background-size: 101vw 303vh;
+    height: 300vh;
     width: 100vw;
     position: fixed;
     /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
     right: 0vw;
-    bottom: 0vw;
+    bottom: 0vh;
   }
 
   .content{
@@ -49,7 +49,7 @@ img.image_AAA_0{
 
 div.BLANK_CONT_A{
     width: 100vw;
-    height:25vh;
+    height:10vh;
 }
 
 
