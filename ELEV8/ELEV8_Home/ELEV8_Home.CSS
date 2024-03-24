@@ -25,7 +25,7 @@ img.image_AAA_0{
     background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
     background-image: url(green_6.1.png);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: 101vw 303vh;
     height: 300vh;
     width: 100vw;
@@ -49,7 +49,7 @@ img.image_AAA_0{
 
 div.BLANK_CONT_A{
     width: 100vw;
-    height:10vh;
+    height:25vh;
 }
 
 
@@ -60,7 +60,7 @@ div.BLANK_CONT_A{
 
 body{
     background-color: seagreen;
-    background-image: url(green_6.0.pngg);
+    background-image: url(green_6.1.png);
     background-position: top center;
     background-size:100vw 100vh;
     background-attachment: fixed;   
