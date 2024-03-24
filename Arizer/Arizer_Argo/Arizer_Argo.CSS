@@ -2,8 +2,9 @@
 body{
     background-color: seagreen;
     background-image: url(adsf6.2.png);
-    background-position: center;
-    background-size:cover;   
+    background-position: top center;
+    background-size:100vw 100vh;
+    background-attachment: fixed;   
     font-family: Arial, Helvetica, sans-serif;
 }
 div.Container_Center{
@@ -34,9 +35,15 @@ div.Container_Navbar{
     width: 100vw;
 }
 
+
 #navbar li{
     display: inline;
     padding-left: 2.5vw;
+
+
+
+
+
 }
 #navbar a{
     color: salmon;
@@ -89,7 +96,15 @@ div.TXT_CONT_A{
     color: black;
 }
 
+div.stick_me{
+    position: sticky;
+    top: 0px;
+}
+
+
 div.BKGRND_IMAGE_CONT_H{
+
+
     width: 100vw;
     height: 20vh;
     background-position:top center;
@@ -102,4 +117,69 @@ div.BKGRND_IMAGE_CONT_H{
 div.BLANK_CONT_A{
     width: 98vw;
     height:20vw - 15vw;
+}
+
+
+
+div.Container_Topbar_A
+{
+    float:left;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+    background-image: url(3D_T_Blue_0.0.png);
+    background-repeat: no-repeat;
+    background-size: 75vw 100%;
+
+    background-position-y: 1.5px;
+
+
+    border: solid 0vh blue;
+
+}
+
+
+div.Container_Topbar_Box_A
+{
+
+    float:left;
+    width: 48vw;
+    height: 100%;
+    background-color: transparent;
+
+    border: solid 0vh red;
+
+
+}
+
+div.Container_Topbar_Box_B
+{
+    position: absolute;
+    right: 0;
+
+    float:left;
+    width: 48vw;
+    height: 100%;
+    background-color: transparent;
+
+    border: solid 0vh blue;
+
+    justify-content: right;
+
+
+}
+
+
+div.fu{
+    position: absolute;
+    right: 0;
+
+    text-align: right;
+
+    width: 50vw;
+
+    border: solid 0vh chartreuse;
+
+
 }
