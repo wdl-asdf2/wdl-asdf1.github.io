@@ -47,6 +47,10 @@ img.image_AAA_0{
     bottom: 2vw;
   }
 
+div.BLANK_CONT_A{
+    width: 100vw;
+    height:10vh;
+}
 
 
 
@@ -154,10 +158,7 @@ div.TXT_CONT_A{
     color: black;
 }
 
-div.BLANK_CONT_A{
-    width: 98vw;
-    height:20vw - 15vw;
-}
+
 
 
 
