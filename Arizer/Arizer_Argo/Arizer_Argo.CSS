@@ -224,6 +224,6 @@ div.fu{
     width: 100vw;
     height: 100vh;
 
-    right: 0vw;
-    bottom: 0vw;
+    right: 1vw;
+    bottom: 2vw;
   }
