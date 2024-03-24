@@ -2,8 +2,9 @@
 body{
     background-color: seagreen;
     background-image: url(adsf6.2.png);
-    background-position: center;
-    background-size:cover;   
+    background-position: top center;
+    background-size:100vw 100vh;
+    background-attachment: fixed;   
     font-family: Arial, Helvetica, sans-serif;
 }
 div.Container_Center{
@@ -56,7 +57,7 @@ div.Container_Showcase{
 }
 
 div.Division_A{
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-left: 2vw;
     padding-right: 2vw;
 }
