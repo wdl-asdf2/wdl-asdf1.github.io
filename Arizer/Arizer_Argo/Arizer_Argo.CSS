@@ -1,13 +1,20 @@
 
 body{
-    background-color: seagreen;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: transparent;
     background-image: url(adsf6.2.png);
-    background-position: top center;
+    background-position:top center;
     background-size:100vw 100vh;
     background-attachment: fixed;   
     font-family: Arial, Helvetica, sans-serif;
 
     position: relative;
+
+    border: solid 0vh chartreuse;
+
 }
 div.Container_Center{
     display: flex;
@@ -27,6 +34,8 @@ header{
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5vw;
+
+
 }
 div.Container_Navbar{
     background-image: url(3D_Blue_6.0.png);
@@ -35,6 +44,8 @@ div.Container_Navbar{
     background-size: 99vw calc(10px + 6vh);
     background-repeat: no-repeat;
     width: 100vw;
+
+
 }
 
 
@@ -101,6 +112,9 @@ div.TXT_CONT_A{
 div.stick_me{
     position: sticky;
     top: 0px;
+
+    height: 100vh;
+    width: 100vw;
 }
 
 
@@ -190,13 +204,21 @@ div.fu{
 
 .bg {
     background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
-    background-image: url(adsf6.2.png);
+    background-image: url(adsf6.3.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    background-size: 100vw 100vh;
     height: 100vh;
     width: 100vw;
-    background-size: 100vw 100vh;
     position: fixed;
     /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
-    z-index: -1;
+  }
+
+  .content{
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
   }
