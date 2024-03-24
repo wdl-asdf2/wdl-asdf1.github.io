@@ -5,7 +5,7 @@ body{
     width: 100vw;
 
     background-color: transparent;
-    background-image: url(adsf6.2.png);
+    background-image: url(adsf6.2.pngg);
     background-position:top center;
     background-size:101vw 100vh;
     background-attachment: fixed;   
@@ -212,8 +212,8 @@ div.fu{
     width: 100vw;
     position: fixed;
     /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
-    right: 1vw;
-    bottom: 1vw;
+    right: 0vw;
+    bottom: 0vw;
   }
 
   .content{
@@ -224,6 +224,6 @@ div.fu{
     width: 100vw;
     height: 100vh;
 
-    right: 1vw;
-    bottom: 1vw;
+    right: 0vw;
+    bottom: 0vw;
   }
