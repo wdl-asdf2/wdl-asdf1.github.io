@@ -25,7 +25,7 @@ img.image_AAA_0{
 
 footer.FT_0{
     width: 100vw;
-    height: 50vh;
+    height: calc(50vh - 15vw);
 }
 
 .bg {
@@ -76,6 +76,8 @@ body{
 div.Container_Center{
     display: flex;
     justify-content: center;
+
+    border: 0px solid salmon;
 }
 div.Container_Right{
     display: flex;
@@ -96,9 +98,14 @@ div.Container_Navbar{
     background-image: url(3D_Blue_6.0.png);
     background-color: transparent;
     background-position:top center;
-    background-size: 99vw calc(10px + 6vh);
+    background-size: 99vw calc(100%);
     background-repeat: no-repeat;
+
+    height: calc(2.5vh + 2vw);
     width: 100vw;
+
+
+    border: solid salmon 0px;
 }
 #navbar li{
     display: inline;
@@ -135,7 +142,7 @@ img.image_1{
 
 div.BKGRND_IMAGE_CONT_A{
     width: 100vw;
-    height: 28vh;
+    height: calc(20px + 15vw);
     background-position:top center;
     background-image: url(3D_Rose_0.0.png);
     background-repeat: no-repeat;
