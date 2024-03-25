@@ -23,7 +23,7 @@ img.image_AAA_0{
 
 footer.FT_0{
     width: 100vw;
-    height: 50vh;
+    height: calc(50vh - 15vw);
 }
 
 
@@ -134,7 +134,7 @@ img.image_1{
 
 div.BKGRND_IMAGE_CONT_A{
     width: 100vw;
-    height: 28vh;
+    height: calc(10px + 15vw);
     background-position:top center;
     background-image: url(3D_Green_0.0.png);
     background-repeat: no-repeat;
