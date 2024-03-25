@@ -1,0 +1,169 @@
+div.AAA_0{
+    border: solid salmon 1px;
+
+    height: 100vh;
+    width: 100wv;
+
+    background-image: url(green_6.0.png);
+    background-position: top center;
+
+    background-size: 100vw 100vh;
+
+ 
+
+    position: sticky;
+    top: 0px;
+}
+
+
+img.image_AAA_0{
+    height: 100vw;
+    width: 100vw;
+}
+
+footer.FT_0{
+    width: 100vw;
+    height: 50vh;
+}
+
+.bg {
+    background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
+    background-image: url(adsf6.3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101vw 303vh;
+    height: 300vh;
+    width: 100vw;
+    position: fixed;
+    /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
+    right: 0vw;
+    bottom: 0vh;
+  }
+
+  .content{
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+
+    right: 1vw;
+    bottom: 2vw;
+  }
+
+div.BLANK_CONT_A{
+    width: 100vw;
+    height:25vh;
+}
+
+
+
+
+
+
+
+body{
+    background-color: seagreen;
+    background-image: url(adsf6.3.png);
+    background-position: top center;
+    background-size:100vw 300vh;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.Container_Center{
+    display: flex;
+    justify-content: center;
+}
+div.Container_Right{
+    display: flex;
+    justify-content: right;
+}
+div.Container_Left{
+    display: flex;
+    justify-content: left;
+}
+
+header{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+div.Container_Navbar{
+    background-image: url(3D_Blue_6.0.png);
+    background-color: transparent;
+    background-position:top center;
+    background-size: 99vw calc(10px + 6vh);
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+#navbar li{
+    display: inline;
+    padding-left: 2.5vw;
+}
+#navbar a{
+    color: salmon;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+div.Container_Showcase{
+    background-position: center;
+    background-size: auto;  
+    background-size: cover;
+    background-image: url(Rose_0.1.png); 
+
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+div.Division_A{
+    padding-top: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+img.image_1{
+    height: 30vw;
+    width: 30vw;
+}
+
+div.BKGRND_IMAGE_CONT_A{
+    width: 100vw;
+    height: 32vh;
+    background-position:top center;
+    background-image: url(3D_Green_0.0.png);
+    background-repeat: no-repeat;
+    background-size: 99vw calc(10px + 17vw);
+}
+
+div.BKGRND_IMAGE_CONT_H{
+    width: 100vw;
+    height: 20vh;
+    background-position:top center;
+    background-image: url(3D_Arizer_Rose_0.0.png);
+    background-repeat: no-repeat;
+    background-size: 80vw 20vh;
+}
+
+
+div.TXT_CONT_A{
+    padding-top: 0vw;
+    padding-left: 2vw;
+    width: 96vw;
+    height:10vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: black;
+}
+
+
+
+
+
